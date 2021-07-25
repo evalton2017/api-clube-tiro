@@ -1,0 +1,9 @@
+2021-07-25T13:05:59.892Z info: servidor executando na porta 3050
+2021-07-25T13:06:01.930Z error: Error: connect ECONNREFUSED 127.0.0.1:5432
+[90m    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)[39m {
+  errno: [32m'ECONNREFUSED'[39m,
+  code: [32m'ECONNREFUSED'[39m,
+  syscall: [32m'connect'[39m,
+  address: [32m'127.0.0.1'[39m,
+  port: [33m5432[39m
+}
